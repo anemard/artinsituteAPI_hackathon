@@ -1,5 +1,5 @@
 import React from 'react';
-import { Artworks, Home } from './components';
+import { Artwork, Artworks, Home } from './components';
 import { Route, Routes } from 'react-router-dom';
 
 function AppRoutes() {
@@ -9,6 +9,7 @@ function AppRoutes() {
       <Routes>
         <Route path="/" element={ <><Home /></> } />
         <Route path="/artworks" element={ <><Artworks /></> } />
+        <Route path="/artworks/artwork/:id" element={ <><Artwork /></> } />
       </Routes>
     </div>
   );
