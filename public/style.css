@@ -12,7 +12,7 @@ body {
     height: 100vh;
 }
 
-h1, a {
+.homeTitle, a {
     text-decoration: none;
     color: white;
     font-family: Arial, Helvetica, sans-serif;
@@ -23,11 +23,12 @@ h1, a {
     border: solid black 1px;
     padding: 5px;
     margin: 5px;
-    background-color: rgb(206, 206, 206);
+    background-color: white;
 }
 
 .artworkTitle {
     color: black;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 p {
@@ -42,4 +43,41 @@ p {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    justify-content: center;
+}
+
+.artwork {
+    margin: 20px 10vw;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: solid black 1px;
+    background-color: white;
+}
+
+.artworkImage {
+    width: 60vw;
+}
+
+.nav {
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.navLink {
+    margin: 0px 10px;
+    padding: 0px 10px;
+}
+
+.artworkDetails {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+button {
+    margin: 0px 10px;
+    padding: 0px 10px;
 }
